@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franquicias de Nintendo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #E60012;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu {
+            background-color: #333;
+            padding: 10px;
+        }
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .menu ul li {
+            position: relative;
+            margin-right: 20px;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+        }
+        .menu ul li:hover .submenu {
+            display: block;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            top: 100%;
+            left: 0;
+            min-width: 150px;
+        }
+        .submenu li {
+            width: 100%;
+        }
+        .submenu li a {
+            padding: 10px;
+            display: block;
+            color: white;
+        }
+        .submenu li a:hover {
+            background-color: #555;
+        }
+        .game-section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #F8F8F8;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #E60012;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+        }
+        .footer-content {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header añadido -->
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/2560px-Nintendo.svg.png" alt="Nintendo Logo" width="200px">
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="juegos.html">Juegos</a></li>
+            <li><a href="consolas.html">Consolas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="game-section">
+        <h2>🍄 Super Mario</h2>
+        <p>Desde su debut en 1985 con <i>Super Mario Bros.</i>, ha revolucionado el género de plataformas.</p>
+        <ul>
+            <li><i>Super Mario 64</i> (1996)</li>
+            <li><i>Super Mario Galaxy</i> (2007)</li>
+            <li><i>Super Mario Odyssey</i> (2017)</li>
+        </ul>
+    </div>
+    
+    <div class="game-section">
+        <h2>🏹 The Legend of Zelda</h2>
+        <p>Una saga de aventuras y exploración protagonizada por Link en su lucha contra Ganon.</p>
+        <ul>
+            <li><i>Ocarina of Time</i> (1998)</li>
+            <li><i>Breath of the Wild</i> (2017)</li>
+            <li><i>Tears of the Kingdom</i> (2023)</li>
+        </ul>
+    </div>
+    
+    <div class="game-section">
+        <h2>⚔️ Pokémon</h2>
+        <p>Desde su lanzamiento en 1996, Pokémon se ha convertido en una de las franquicias más exitosas.</p>
+        <ul>
+            <li><i>Pokémon Red & Blue</i> (1996)</li>
+            <li><i>Pokémon Sword & Shield</i> (2019)</li>
+            <li><i>Pokémon Scarlet & Violet</i> (2022)</li>
+        </ul>
+    </div>
+    
+    <footer>
+        Nintendo continúa innovando con nuevos juegos y consolas. ¿Cuál es tu saga favorita?
+        <div class="footer-content">&copy; 2025 Nintendo Fan Page. Todos los derechos reservados.</div>
+    </footer>
+</body>
+</html>

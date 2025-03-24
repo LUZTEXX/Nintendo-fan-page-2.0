@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Nintendo Fan Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e60012;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .header img {
+            width: 200px;
+        }
+        .menu {
+            background-color: black;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .menu a:hover {
+            color: #ffcc00;
+        }
+        .game-section {
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #E60012;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #C50010;
+            transform: scale(1.05);
+        }
+        .footer {
+            background-color: black;
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/2560px-Nintendo.svg.png" alt="Nintendo Logo">
+    </header>
+    <nav class="menu">
+        <a href="index.html"> Inicio</a>
+        <a href="juegos.html"> Juegos</a>
+        <a href="consolas.html"> Consolas</a>
+        <a href="contacto.html"> Contacto</a>
+    </nav>
+    <div class="game-section">
+        <h2>📩 Contacto</h2>
+        <p>Si crees que ha faltado algo y te has sentido a gusto con la información proporcionada ¡Contáctanos!</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p><strong>Nintendo Fan Page</strong></p>
+        <p>Ubicación: Kioto, Japón</p>
+        <p><a href="#">Historia de Nintendo</a> | <a href="#">Contacto</a></p>
+        <p>&copy; 2025 Todos los derechos reservados. Esta página no es oficial de Nintendo.</p>
+    </footer>
+</body>
+</html>
